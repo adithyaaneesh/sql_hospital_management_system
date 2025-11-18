@@ -1,0 +1,10 @@
+select *  from patient;
+select name from doctor;
+select *  from patient where gender= 'Female';
+select *  from patient where city= 'Delhi';
+select * from appointment;
+select name, phone from doctor;
+select *  from patient where age>30;
+select appointment_date from appointment;
+select room_type from room;
+select department_name from department;
